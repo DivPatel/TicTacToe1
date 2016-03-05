@@ -14,9 +14,17 @@ namespace TicTacToe1
     {
         bool turn = true;//ture = x turn , false = 0 turn
         int turn_count=0;
+        static string player1, player2;
+
         public Form1()
         {
             InitializeComponent();
+        }
+        
+        public static void setPlayerNames(string n1,string n2)
+        {
+            player1 = n1;
+            player2 = n2;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -75,16 +83,20 @@ namespace TicTacToe1
                 string winner = "";
                 if (turn)
                 {
+                   
+                    winner = player2;
                     o_win_count.Text = (Int32.Parse(o_win_count.Text) + 1).ToString();
-                    winner = "O";
                 }
                 else
                 {
+                   
+                    winner = player1;
                     x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
-                    winner = "X";
                 }
 
                 MessageBox.Show(winner + " wins!!", "yeahh!!");
+                newGameToolStripMenuItem.PerformClick();
+                
             }//end if there
             else
             {
@@ -92,21 +104,24 @@ namespace TicTacToe1
                 {
                     draw_count.Text = (Int32.Parse(draw_count.Text) + 1).ToString();
                     MessageBox.Show("Draw");
+                    newGameToolStripMenuItem.PerformClick();
                 }
             }
         }//end of check for winner
         private void disableButtons()
         {
-            try
-            {
+         
 
                 foreach (Control c in Controls)
                 {
+                try
+                {
                     Button b = (Button)c;
                     b.Enabled = false;
-                }//end foreach
-            }
-            catch { }   
+                }
+                catch { }
+            }//end foreach
+              
          }
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
@@ -155,6 +170,14 @@ namespace TicTacToe1
             x_win_count.Text = "0";
             draw_count.Text = "0";
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            PlayerNameForm f2 = new PlayerNameForm();
+            f2.ShowDialog();
+            label1.Text = player1;
+            label3.Text = player2;
         }
     }
 }
