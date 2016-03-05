@@ -48,6 +48,7 @@
             // 
             // A1
             // 
+            this.A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A1.Location = new System.Drawing.Point(12, 42);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(75, 75);
@@ -57,6 +58,7 @@
             // 
             // A2
             // 
+            this.A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.A2.Location = new System.Drawing.Point(93, 42);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(75, 75);
@@ -66,6 +68,7 @@
             // 
             // A3
             // 
+            this.A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.A3.Location = new System.Drawing.Point(174, 42);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(75, 75);
@@ -75,6 +78,7 @@
             // 
             // B1
             // 
+            this.B1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.B1.Location = new System.Drawing.Point(12, 123);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(75, 75);
@@ -84,6 +88,7 @@
             // 
             // B2
             // 
+            this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.B2.Location = new System.Drawing.Point(93, 123);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(75, 75);
@@ -93,6 +98,7 @@
             // 
             // B3
             // 
+            this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.B3.Location = new System.Drawing.Point(174, 123);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(75, 75);
@@ -102,6 +108,7 @@
             // 
             // C1
             // 
+            this.C1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.C1.Location = new System.Drawing.Point(12, 204);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(75, 75);
@@ -111,6 +118,7 @@
             // 
             // C2
             // 
+            this.C2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.C2.Location = new System.Drawing.Point(93, 204);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(75, 75);
@@ -120,6 +128,7 @@
             // 
             // C3
             // 
+            this.C3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
             this.C3.Location = new System.Drawing.Point(174, 204);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(75, 75);
@@ -150,14 +159,14 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.newGameToolStripMenuItem.Text = "New Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -172,7 +181,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -192,7 +201,9 @@
             this.Controls.Add(this.A1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -21,7 +21,7 @@ namespace TicTacToe1
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Welcome to Tic Tac Toe developed by Divyesh Hingrajiya", "Author");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
