@@ -117,5 +117,27 @@ namespace TicTacToe1
                 catch { }
             }//END OF FOR 
         }
+
+        private void button_enter(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            if (b.Enabled)
+            {
+                if (turn)
+                    b.Text = "X";
+                else
+                    b.Text = "O";
+            }//end if b.enable
+            
+        }
+
+        private void button_leave(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            if (b.Enabled)
+            {
+                b.Text = "";
+            }//end if b.enable
+        }
     }
 }
