@@ -74,16 +74,25 @@ namespace TicTacToe1
 
                 string winner = "";
                 if (turn)
+                {
+                    o_win_count.Text = (Int32.Parse(o_win_count.Text) + 1).ToString();
                     winner = "O";
+                }
                 else
+                {
+                    x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
                     winner = "X";
+                }
 
                 MessageBox.Show(winner + " wins!!", "yeahh!!");
             }//end if there
             else
             {
-                if (turn_count == 9) 
+                if (turn_count == 9)
+                {
+                    draw_count.Text = (Int32.Parse(draw_count.Text) + 1).ToString();
                     MessageBox.Show("Draw");
+                }
             }
         }//end of check for winner
         private void disableButtons()
@@ -138,6 +147,14 @@ namespace TicTacToe1
             {
                 b.Text = "";
             }//end if b.enable
+        }
+
+        private void resetWinCountToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            o_win_count.Text = "0";
+            x_win_count.Text = "0";
+            draw_count.Text = "0";
+
         }
     }
 }
