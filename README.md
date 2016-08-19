@@ -11,7 +11,7 @@ Microsoft Visual Studio.
 
 ## Installation
 
-The main folder of tictactoe contains visual studio codes. Open the `TicTacToe1.sln` in Visual Studio.
+The main folder of tictactoe contains visual studio codes. Open the `TicTacToe1.sln` in Visual Studio.Copy the TTT1.01.2 Branch.
 
 
 ## Usage
@@ -20,6 +20,7 @@ Run the project in visual studio. Edit Code to build your version.
 
 ##Screenshot
 
+![ghgv](https://cloud.githubusercontent.com/assets/10097431/17822684/fc1c5a64-6675-11e6-8944-2c416fa4f89d.PNG)
 ![tictacto](https://cloud.githubusercontent.com/assets/10097431/17820492/cb4d408e-666a-11e6-83f4-1b3bc77b10f9.PNG)
 ![cap66ture](https://cloud.githubusercontent.com/assets/10097431/17820493/cb4fbd78-666a-11e6-9d47-98514ebf2252.PNG)
 ![tictact1o](https://cloud.githubusercontent.com/assets/10097431/17820490/cb4caa7a-666a-11e6-85e6-be4542400630.PNG)
