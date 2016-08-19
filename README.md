@@ -20,6 +20,10 @@ Run the project in visual studio. Edit Code to build your version.
 
 ##Screenshot
 
+![tictacto](https://cloud.githubusercontent.com/assets/10097431/17820492/cb4d408e-666a-11e6-83f4-1b3bc77b10f9.PNG)
+![cap66ture](https://cloud.githubusercontent.com/assets/10097431/17820493/cb4fbd78-666a-11e6-9d47-98514ebf2252.PNG)
+![tictact1o](https://cloud.githubusercontent.com/assets/10097431/17820490/cb4caa7a-666a-11e6-85e6-be4542400630.PNG)
+
 
 ## Contributing
 
