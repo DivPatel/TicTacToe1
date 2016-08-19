@@ -1,6 +1,6 @@
 <snippet>
   <content>
-# Tic TAC Toe Game
+# TicTacToe Game
 
 This is Tictactoe game for windows.
 
@@ -11,12 +11,12 @@ Microsoft Visual Studio.
 
 ## Installation
 
-The main folder of tictactoe contains visual studio codes. Open the 'TicTacToe1.sln' in Visual Studio.
+The main folder of tictactoe contains visual studio codes. Open the `TicTacToe1.sln` in Visual Studio.
 
 
 ## Usage
 
-Run the project in visual studio.Edit Code to build your version.
+Run the project in visual studio. Edit Code to build your version.
 
 ##Screenshot
 
